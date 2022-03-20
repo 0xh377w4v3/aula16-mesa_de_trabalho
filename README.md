@@ -10,7 +10,6 @@
 | **Carlos Santana** | [login.html](https://github.com/0xh377w4v3/teste-gitpages/blob/main/login.html) |
 | **Jorge Hugo** | [registro.html](https://github.com/0xh377w4v3/teste-gitpages/blob/main/registro.html) |
 | **Daniela Fuenmayor** | [contato.html](https://github.com/0xh377w4v3/teste-gitpages/blob/main/contato.html) |
-| **Lucas Neiva** | [detalhes.html](https://github.com/0xh377w4v3/teste-gitpages/blob/main/detalhes.html) |
 
 
 ## 🏁 Objetivo

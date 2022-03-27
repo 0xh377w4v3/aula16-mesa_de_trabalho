@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="div-superior">
+        <p class="paragraph-superior">
+            Antonio Mesquita - Paulo H S Borges - Liliane Soares - Carlos Santana -
+            Jorge Hugo - Daniela Fuenmayor
+        </p>
+    </div>
+
+    <header>
+        <div>
+            <h1>Mr. Robot</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <button class="button-superior">
+                        <a class="text-button-superior" href="index.html" target="_blank">Home</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="button-superior">
+                        <a class="text-button-superior" href="login.html" target="_blank">Ingressar</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="button-superior">
+                        <a class="text-button-superior" href="contato.html" target="_blank">Contato</a>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="card-2">
+
+            <div class="formulario-2">
+
+                <h1 class="add_heroi_titulo">Adicionar novos personagens</h1>
+
+                <form action="" method="post">
+
+                    <fieldset class="dados">
+
+                        <div>
+                            <label for="usuario">Nome e Sobrenome</label>
+                            <input type="text" name="usuario" id="usuario" placeholder="Nome e sobrenome" />
+                        </div>
+
+                        <div class="local">
+
+                            <label for="especie">Selecione a Área de Atuação:</label>
+
+                            <select name="especie" id="especie">
+
+                                <optgroup label="Selecione...">
+                                    <option value="2">Front-End</option>
+                                    <option value="3">Back-End</option>
+                                    <option value="4">Full Stack</option>
+                                    <option value="5">Infraestrutura</option>
+                                    <option value="6">Cybersegurança</option>
+                                    <option value="7">Ciência de Dados</option>
+                                </optgroup>
+
+                            </select>
+
+                        </div>
+
+                        <div>
+                            <label for="date">Data de Nascimento</label>
+                            <input type="date" name="date" id="date" placeholder="dd/mm/aaaa" />
+                        </div>
+
+                        <div class="foto">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                            <input type="file" />
+                        </div>
+
+                        <div>
+                            <textarea name="mensagem" id="mensagem" placeholder="Descrição"></textarea>
+                        </div>
+
+                        <div>
+                            <div class="status"><strong>Habilidades</strong></div>
+
+                            <div>
+                                <label for="hacker"><input type="checkbox" id="hacker" name="hacker" />Hackear</label>
+                            </div>
+
+                            <div>
+                                <label for="dados"><input type="checkbox" id="dados" name="dados" checked />Manipulação de Dados</label>
+                            </div>
+
+                            <div>
+                                <label for="estilo"><input type="checkbox" id="estilo" name="estilo" />Estilização Web/App</label>
+                            </div>
+
+                            <div>
+                                <label for="inteligencia"><input type="checkbox" id="inteligencia" name="inteligencia" />AI & ML/DP</label>                                
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="status"><strong>Tipo de personagem:</strong></div>
+
+                            <div>
+                                <label for="principal"><input type="radio" id="principal" name="principal" checked />Principal</label>                                
+                            </div>
+
+                            <div>
+                                <label for="coadjuvante"><input type="radio" id="coadjuvante" name="coadjuvante" />Coadjuvante</label>                                
+                            </div>
+
+                        </div>
+
+                        <div class="envio">
+                            <input class="botoes-input" type="submit" value="Adicionar" />
+                        </div>
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="div-footer">
+            <p class="paragraph-footer">
+                Todos os direitos reservados a <span class="span">FRONT END</span>.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
